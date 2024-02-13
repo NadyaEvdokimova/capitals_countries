@@ -9,7 +9,7 @@ const password = process.env.password;
 
 const db = new pg.Client({
   user: "postgres",
-  host: "localhost",
+  host: "postgres://world_icib_user:WtvBLYiZJ459KeHCMOUeNwhyJNQ6sJxp@dpg-cn5o4bect0pc738hdm3g-a/world_icib",
   database: "world",
   password: password,
   port: 5432,
